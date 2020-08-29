@@ -43,6 +43,8 @@ SERVER_MODE = True
 
 ### Setup pgadmin4:
 ```
+pip install --upgrade werkzeug==0.16.1
+
 python lib/python2.7/site-packages/pgadmin4/setup.py
 
 ---
